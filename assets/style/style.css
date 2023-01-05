@@ -1,43 +1,15 @@
 body {
+  font-family: 'Barlow', sans-serif;
+
   background: linear-gradient(270deg, #1e1e1e 74%, #d11c2333 100%), linear-gradient(55deg, #1e1e1e 68%, #D11C23 100%);
-  color:#fff;
-  height: 200vh;
-}
-
-.cover {
-  background: linear-gradient(270deg, #1e1e1e33 74%, #d11c2333 100%), linear-gradient(55deg, #1e1e1e 68%, #D11C23 100%);
-
-  height: 100vh;
-  padding: 120px 150px;
-  position: relative;
-}
-
-.cover .cover__text{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.cover .cover__background-image {
-  position: absolute;
-  right: 0;
-
-  background-image: url('/assets//img/background/don_corleone.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  width: 50%;
-  height: 80%;
-  max-width: 780px;
-  max-height: 730px;
+  color: #fff;
 }
 
 .title {
-  font-family: 'Barlow', sans-serif;
   font-weight: 800;
   font-size: 32px;
   line-height: 43px;
+
   text-align: center
 }
 
@@ -47,15 +19,14 @@ body {
 }
 
 .text {
-  font-family: 'Barlow', sans-serif;
   font-weight: 600;
   font-size: 22px;
   line-height: 26px;
-  text-align: center
+
+  text-align: center;
 }
 
 .small {
-  font-family: 'Barlow', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
@@ -63,24 +34,31 @@ body {
 }
 
 .input {
-    border-radius: 15px;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    width: 580px;
-    height: 75px;
-    border: none;
-    padding: 0;
-    text-align: center;
-    margin: 10px 0;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 20px;
+
+  line-height: 24px;
+  text-align: center;
+
+  width: 580px;
+  height: 75px;
+
+  border-radius: 15px;
+  border: none;
+
+  margin: 10px 0;
 }
 
 .button {
-    background-color: #D11C23;
-    border: none;
-    border-radius: 15px; color: #fff;
-    width: 580px;
-    height: 75px;
-    padding: 0;
+  font-family: inherit;
+
+  background-color: #D11C23;
+
+  border-radius: 15px;
+  color: #fff;
+  border: none;
+
+  width: 580px;
+  height: 75px;
 }

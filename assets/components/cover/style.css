@@ -1,0 +1,28 @@
+.cover {
+  background: linear-gradient(270deg, #1e1e1e33 74%, #d11c2333 100%), linear-gradient(55deg, #1e1e1e 68%, #D11C23 100%);
+
+  padding: 120px 150px;
+  position: relative;
+}
+
+.cover .cover__text {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.cover .cover__background-image {
+  position: absolute;
+  right: 0;
+
+  background-image: url('/assets//img/background/don_corleone.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 50%;
+  height: 80%;
+  max-width: 780px;
+  max-height: 730px;
+}
