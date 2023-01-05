@@ -26,3 +26,31 @@ body {
   max-width: 780px;
   max-height: 730px;
 }
+
+.title {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center
+}
+
+
+.title.emphasis {
+  color: #D11C23;
+}
+
+.text {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center
+}
+
+.small {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
