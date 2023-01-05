@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(270deg, #1e1e1e 74%, #d11c2333 100%), linear-gradient(55deg, #1e1e1e 68%, #D11C23 100%);
-
+  color:#fff;
   height: 200vh;
 }
 
@@ -53,6 +53,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
+  color: #cccccc;
 }
 
 .input {
