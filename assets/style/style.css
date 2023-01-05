@@ -54,3 +54,25 @@ body {
   font-size: 14px;
   line-height: 14px;
 }
+
+.input {
+    border-radius: 15px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    width: 580px;
+    height: 75px;
+    border: none;
+    padding: 0;
+    text-align: center;
+}
+
+.button {
+    background-color: #D11C23;
+    border: none;
+    border-radius: 15px; color: #fff;
+    width: 580px;
+    height: 75px;
+    padding: 0;
+}
