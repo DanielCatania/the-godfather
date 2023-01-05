@@ -9,8 +9,14 @@ body {
 
   height: 100vh;
   padding: 120px 150px;
-
   position: relative;
+}
+
+.cover .cover__text{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .cover .cover__background-image {
@@ -67,6 +73,7 @@ body {
     border: none;
     padding: 0;
     text-align: center;
+    margin: 10px 0;
 }
 
 .button {
