@@ -41,7 +41,8 @@ body {
   line-height: 24px;
   text-align: center;
 
-  width: 580px;
+  width: 100%;
+  max-width: 580px;
   height: 75px;
 
   border-radius: 15px;
@@ -59,6 +60,9 @@ body {
   color: #fff;
   border: none;
 
-  width: 580px;
+  font-size: 26px;
+
+  width: 100%;
+  max-width: 580px;
   height: 75px;
 }

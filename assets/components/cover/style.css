@@ -29,6 +29,7 @@
 
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 26px;
 }
 
@@ -44,4 +45,81 @@
   height: 80%;
   max-width: 780px;
   max-height: 730px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 5%;
+  }
+
+  .cover .cover__event-title {
+    margin: 0;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .cover .cover__bar {
+    display: none;
+  }
+
+  .cover .cover__text {
+    width: 100%;
+  }
+
+  .cover .cover__email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cover .button {
+    font-size: 20px;
+  }
+
+  .cover .small,
+  .cover .text {
+    width: 80%;
+  }
+
+  .cover .cover__background-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cover .cover__event-title {
+    margin-bottom: 5px;
+  }
+
+  .cover .cover__event-title .cover__event-title-name {
+    align-items: center;
+  }
+
+  .cover .cover__event-title .cover__event-title-name img {
+    max-width: 70%;
+  }
+
+  .cover .cover__logo {
+    display: none;
+  }
+
+  .cover .title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .cover .text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .cover .button,
+  .cover .input {
+    width: 75%;
+  }
 }
