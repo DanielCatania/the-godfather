@@ -1,12 +1,31 @@
 .cover {
   background: linear-gradient(270deg, #1e1e1e33 74%, #d11c2333 100%), linear-gradient(55deg, #1e1e1e 68%, #D11C23 100%);
 
-  padding: 120px 150px;
+  padding: 120px 200px;
   position: relative;
 }
 
+.cover .cover__event-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 -80px;
+  width: 70%;
+}
+
+.cover .cover__event-title .cover__event-title-name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cover .cover__event-title .cover__event-title-name img {
+  width: min-content;
+}
+
 .cover .cover__text {
-  width: 50%;
+  width: 60%;
 
   display: flex;
   flex-direction: column;
@@ -17,7 +36,7 @@
   position: absolute;
   right: 0;
 
-  background-image: url('/assets//img/background/don_corleone.svg');
+  background-image: url('/assets/components/cover/img/don_corleone.svg');
   background-size: cover;
   background-repeat: no-repeat;
 
