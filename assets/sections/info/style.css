@@ -1,9 +1,18 @@
 .info {
   padding: 0px 10%;
+}
+
+.info__img {
+  width: 100%;
+}
+
+.info__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 5%;
+
+  margin-bottom: 0.5em;
 }
 
 .info .info__text {
@@ -28,7 +37,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .info {
+  .info__content {
     flex-direction: column;
     justify-content: center;
   }
@@ -45,6 +54,10 @@
 @media screen and (max-width: 650px) {
   .info {
     padding: 5%;
+  }
+
+  .info__img {
+    display: none;
   }
 
   .info .info__text {
