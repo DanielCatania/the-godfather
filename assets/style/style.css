@@ -19,11 +19,13 @@ body {
 }
 
 .text {
-  font-weight: 600;
   font-size: 22px;
   line-height: 26px;
+}
 
+.text.emphasis {
   text-align: center;
+  font-weight: 600;
 }
 
 .small {
@@ -65,4 +67,8 @@ body {
   width: 100%;
   max-width: 580px;
   height: 75px;
+}
+
+.list li::before {
+  content: '- ';
 }
