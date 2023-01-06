@@ -12,6 +12,7 @@
 
   margin: 0 -80px;
   width: 70%;
+  max-width: 650px;
 }
 
 .cover .cover__event-title .cover__event-title-name {
