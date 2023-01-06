@@ -1,5 +1,9 @@
 .info {
-  padding: 0px 200px;
+  padding: 0px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
 }
 
 .info .info__text {
@@ -24,7 +28,16 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .info {
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .info .info__text {
+    width: 100%;
+  }
+
+  .info__block-list {
     width: 100%;
   }
 }
