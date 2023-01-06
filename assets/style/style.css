@@ -66,3 +66,41 @@ body {
   max-width: 580px;
   height: 75px;
 }
+
+.info__block {
+  font-family: 'Barlow';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+
+  width: 100%;
+  max-height: 170px;
+  background: radial-gradient(77.1% 77.1% at 50% 50.32%, #D11C23 0%, #000000 100%);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  max-width: 475px;
+}
+
+.info__block  p{
+  font-family: 'Barlow';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+}
+
+.info__block img{
+  width: 70px;
+  height: 70px;
+  margin: 0 15px;
+}
+
+.info__block-list{
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  gap: 22px;
+}
