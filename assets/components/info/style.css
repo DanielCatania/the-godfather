@@ -1,0 +1,34 @@
+.info {
+  padding: 0px 200px;
+}
+
+.info .info__text {
+  width: 50%;
+}
+
+.info .info__text .text.emphasis,
+.info .info__text .title {
+  text-align: left;
+}
+
+.info .info__text .text {
+  margin: 3% 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .info .info__text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .info {
+    padding: 5%;
+  }
+
+  .info .info__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
