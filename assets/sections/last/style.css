@@ -1,0 +1,19 @@
+.last .title{
+ text-align: left;
+
+}
+
+.last .text{
+text-align: left;
+margin: 0.8em 0;
+
+}
+
+.last__text{
+    width: 50%;
+    
+}
+
+.last{
+    padding: 2% 10%;
+}
