@@ -16,4 +16,22 @@ margin: 0.8em 0;
 
 .last{
     padding: 2% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.last_img{
+    max-width: 350px;
+    max-height: 350px;
+    width: 50%;
+
+}
+
+@media screen and (max-width:650px){
+    .last{
+        flex-direction: column;
+    }
+    
 }
