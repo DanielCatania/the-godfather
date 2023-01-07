@@ -44,8 +44,8 @@
 
   width: 50%;
   height: 80%;
-  max-width: 780px;
-  max-height: 730px;
+  max-width: 610px;
+  max-height: 600px;
 }
 
 @media screen and (max-width: 1024px) {
