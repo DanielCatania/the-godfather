@@ -1,0 +1,30 @@
+.block {
+  font-family: 'Barlow';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  max-height: 170px;
+  max-width: 475px;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border-radius: 15px;
+  padding: 20px;
+  background: radial-gradient(77.1% 77.1% at 50% 50.32%, #D11C23 0%, #000000 100%);
+}
+
+.block  h4{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 0.5em;
+}
+
+.block img{
+  width: 70px;
+  height: 70px;
+  margin: 0 15px;
+}

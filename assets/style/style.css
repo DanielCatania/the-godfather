@@ -1,0 +1,6 @@
+body {
+  font-family: 'Barlow', sans-serif;
+
+  background: linear-gradient(270deg, #1e1e1e 74%, #d11c2333 100%), linear-gradient(55deg, #1e1e1e 68%, #D11C23 100%);
+  color: #fff;
+}

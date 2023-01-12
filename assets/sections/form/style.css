@@ -1,0 +1,9 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(61.7% 61.7% at 50% 50%, #D11C23 0%, #000000 100%);
+    border-radius: 15px;
+    padding: 5%;
+    margin: 2% 10%;
+}
