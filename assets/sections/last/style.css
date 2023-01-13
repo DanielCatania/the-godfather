@@ -1,37 +1,38 @@
-.last .title{
- text-align: left;
+.last .title {
+    text-align: left;
 
 }
 
-.last .text{
-text-align: left;
-margin: 0.8em 0;
+.last .text {
+    text-align: left;
+    margin: 0.8em 0;
 
 }
 
-.last__text{
+.last__text {
     width: 50%;
-    
 }
 
-.last{
+.last {
     padding: 2% 10%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 
-.last_img{
+.last_img {
     max-width: 350px;
     max-height: 350px;
     width: 50%;
 
 }
 
-@media screen and (max-width:650px){
-    .last{
+@media screen and (max-width:650px) {
+    .last {
         flex-direction: column;
     }
-    
+    .last__text {
+        width: 100%;
+    }
+
 }
